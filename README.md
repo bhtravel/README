@@ -33,7 +33,7 @@ https://www.bhtp.com/i?utm_source=AA0000&utm_medium=Partner&utm_campaign=TripCas
 
 ### **Analytics Parameters**
 | Key | Description | Example Data |
-|-|-|-|
+|---|---|---|
 | utm_source | the id of the agent who is referring the user to the site. Used to track commission.  | &utm_source=AA0000 |
 | utm_medium | indicates the source of the request. Always use "Partner" | &utm_medium=Partner |
 | utm_campaign | an optional id allowing the integrating system to uniquely identify where there the reference is coming from. | &utm_campaign=CustomAdName |
@@ -41,7 +41,7 @@ https://www.bhtp.com/i?utm_source=AA0000&utm_medium=Partner&utm_campaign=TripCas
 
 ### **Trip Parameters**
 | Key | Description | Example Data |
-|-|-|-|
+|---|---|---|
 | dc | The [ISO 3166-2](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) code for the destination country that will be visited. If there is more than one destination country, pass only one. | &dc=US |
 | rs | The [ISO 3166-2:US](https://en.wikipedia.org/wiki/ISO_3166-2:US) code for the US state of residence without the US- portion in the beginning (Example: Wisconson = WI) or The postal code of the US address of residence of the policyholder. | &rs=WI or &rs=54481 |
 | dd | The date of departure in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601#Dates) format. | &dd=2016-07-01 |
@@ -55,7 +55,7 @@ https://www.bhtp.com/i?utm_source=AA0000&utm_medium=Partner&utm_campaign=TripCas
 
 ### **Flight Object Parameters**
 | Name | Description | Example Data |
-|-|-|-|
+|---|---|---|
 | d | the date of the flight's departure in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601#Dates) format. | d:2016-07-01 |
 | n | The number of the flight. | n:1234
 | ac | The [IATA code](http://www.iata.org/about/members/Pages/airline-list.aspx?All=true) of the airline that is servicing the flight (Example: Delta Air Lines Inc. = DL). | ac:DL |
@@ -64,7 +64,7 @@ https://www.bhtp.com/i?utm_source=AA0000&utm_medium=Partner&utm_campaign=TripCas
 
 ### **Policyholder & Traveler Object Parameters**
 | Param Name | Description | Example Data |
-|-|-|-|
+|---|---|---|
 | a | The age of the traveler. If the date of birth is specified, this value is ignored. | a:23 |
 | db | the date of birth of the traveler in [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601#Dates) format. | db:1993-01-01 |
 | tc | The cost of the trip for this traveler in US dollars. | tc:1234 |
