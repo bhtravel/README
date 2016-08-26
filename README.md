@@ -29,7 +29,7 @@ https://www.bhtp.com/i
 ## Parameters
 
 Example
-https://www.bhtp.com/i?utm_source=AA0000&utm_medium=Partner&utm_campaign=TripCaseAd&package=Aircare&dc=US&rs=WI&e=jevenson@bhtp.com&tt=2&ph=a:23;tc:1234&t=a:24;tc:0&f=d:2016-07-01;n:1234;ac:DL;da:PNS;aa:ATL
+https://www.bhtp.com/i?utm_source=AA0000&utm_medium=Partner&utm_campaign=TripCaseAd&package=Aircare&dc=US&rs=WI&e=someone@bhtp.com&tt=2&ph=a:23;tc:1234&t=a:24;tc:0&f=d:2016-07-01;n:1234;ac:DL;da:PNS;aa:ATL
 
 ### **Analytics Parameters**
 | Key | Description | Example Data |
